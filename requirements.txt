@@ -1,0 +1,14 @@
+# model training
+torch>=2.0.0
+torchvision>=0.15.0
+
+# data loading, image transforms, and preprocessing
+Pillow>=9.5.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.2
+
+# Jupyter Notebooks
+jupyterlab>=3.6.0
+ipykernel>=6.21.0

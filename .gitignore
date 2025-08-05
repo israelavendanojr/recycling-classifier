@@ -1,0 +1,6 @@
+garbage-dataset/
+garbage-dataset-5/
+dataset/test/*
+dataset/train/*
+dataset/val/*
+

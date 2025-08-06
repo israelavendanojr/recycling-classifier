@@ -57,6 +57,11 @@ dataset/split/
 python -m src.main
 ```
 
+### Run Inference
+```bash
+python -m src.scripts.inference
+```
+
 ## Tech Stack
 - Python
 - PyTorch

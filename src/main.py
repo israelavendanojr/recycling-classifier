@@ -1,9 +1,9 @@
 import os
 import torch
-from src.model import get_model
-from src.train import train_model
-from src.evaluate import evaluate_model
-from src.utils import (
+from classifier.model import get_model
+from classifier.train import train_model
+from classifier.evaluate import evaluate_model
+from classifier.utils import (
     get_data_loaders, show_confusion_matrix, plot_class_accuracy,
     tsne_plot, visualize_predictions
 )
@@ -11,7 +11,7 @@ from src.utils import (
 def save_all_visuals(model, dataloader, class_names, device):
     os.makedirs("visuals", exist_ok=True)
 
-    print("Generating confusion matrix...")
+    print("Generating visuals...")
     all_preds, all_labels = [], []
     model.eval()
     with torch.no_grad():

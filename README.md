@@ -30,7 +30,27 @@ pip install -r requirements.txt
 ```
 
 ### Prepare Dataset
-<img src="visuals/dataset_structure.png" width="300"/>
+```
+dataset/split/
+├── train/
+│   ├── cardboard/
+│   ├── glass/
+│   ├── metal/
+│   ├── paper/
+│   └── plastic/
+├── val/
+    ├── cardboard/
+│   ├── glass/
+│   ├── metal/
+│   ├── paper/
+│   └── plastic/
+└── test/
+    ├── cardboard/
+│   ├── glass/
+│   ├── metal/
+│   ├── paper/
+│   └── plastic/
+```
 
 ### Train and Evaluate Model
 ```bash
@@ -50,7 +70,7 @@ python -m src.main
 ## Results Summary
 - Model: Transfer learning with MobileNetV2
 - Accuracy: 95.49% on test set
-- Best classified: Cardboard, Glass
+- Best classified: Cardboard
 - Most confused: Trash
 
 ## Dataset Source

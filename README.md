@@ -18,12 +18,9 @@ Multiclass PyTorch model that detects recycling material types from images. Buil
 
 ## Demo Visualizations
 
-<p float="left">
-  <img src="visuals/tsne.png" width="300"/>
-  <img src="visuals/confusion_matrix.png" width="300"/>
-  <img src="visuals/class_accuracy.png" width="300"/>
-  <img src="visuals/predictions_sample.png" width="300"/>
-</p>
+<table> 
+<tr> <td><img src="visuals/tsne.png" width="300"/></td> <td><img src="visuals/confusion_matrix.png" width="300"/></td> </tr> <tr> <td><img src="visuals/class_accuracy.png" width="300"/></td> <td><img src="visuals/predictions_sample.png" width="300"/></td> </tr> 
+</table>
 
 ## How to Use
 
@@ -33,15 +30,7 @@ pip install -r requirements.txt
 ```
 
 ### Prepare Dataset
-dataset/split/
-├── train/
-│   ├── cardboard/
-│   ├── glass/
-│   ├── metal/
-│   ├── paper/
-│   └── plastic/
-├── val/
-└── test/
+<img src="visuals/dataset_structure.png" width="300"/>
 
 ### Train and Evaluate Model
 ```bash
